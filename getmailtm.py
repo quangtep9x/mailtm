@@ -35,7 +35,7 @@ def reg_mail():
                 # print(response.json())
                 g = response.json()
                 if g['@context'] == '/contexts/Account':
-                        print(f'Tạo mail: {address} - thành công!')
+                        #print(f'Tạo mail: {address} - thành công!')
                         break
                 else:
                         print('Mail đã sử  dụng')
