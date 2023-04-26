@@ -1,6 +1,6 @@
 import json , time, random,string , requests
 
-getcode(token)
+
 
 def getcode(token):
       while True:
@@ -44,3 +44,4 @@ def getcode(token):
                       break
               except:
                       pass
+getcode(tokenma)
