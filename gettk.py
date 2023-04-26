@@ -30,4 +30,4 @@ def gettoken(account):
     token = response.json()['token']
     return token
 
-u = gettoken(account)
+u = gettoken(account_mail)
