@@ -44,4 +44,4 @@ def getcode(token):
                       break
               except:
                       pass
-getcode(tokenma)
+gk = getcode(tokenma)
