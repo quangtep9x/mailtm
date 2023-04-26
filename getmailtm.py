@@ -35,5 +35,3 @@ while True:
         else:
                 print('Mail đã sử  dụng')
                 time.sleep(5)
-
-return address, password
