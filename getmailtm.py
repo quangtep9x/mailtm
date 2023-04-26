@@ -42,3 +42,4 @@ def reg_mail():
                         time.sleep(5)
         return address       
 t = reg_mail()
+print(t)
