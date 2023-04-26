@@ -40,5 +40,5 @@ def reg_mail():
                 else:
                         print('Mail đã sử  dụng')
                         time.sleep(5)
-        return address, password
+        return address       
 reg_mail()
