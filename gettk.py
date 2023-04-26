@@ -1,6 +1,6 @@
 import json , time, random,string , requests
 
-gettoken(account)
+u = gettoken(account)
 
 def gettoken(account):
     headers = {
