@@ -1,3 +1,5 @@
+import string
+import time
 
 def reg_mail():
         letters = string.ascii_lowercase
