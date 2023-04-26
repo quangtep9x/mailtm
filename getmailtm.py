@@ -41,4 +41,4 @@ def reg_mail():
                         print('Mail đã sử  dụng')
                         time.sleep(5)
         return address,  password      
-t = reg_mail()
+account_mail = reg_mail()
