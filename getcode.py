@@ -38,10 +38,13 @@ def getcode(token):
               #print('html', html)
               # print(html[0])
               try:
+                  try:
                       code = html[0].split('solid #ccc;">FB-')[1].split('</td>')[0]
-                      print('code: ', code)
-                      return code
-                      break
+                  except:
+                      code = html[0].split('&amp;c=')[1].split('&amp;')[0]
+                  print('code: ', code)
+                  return code
+                  break
               except:
-                      pass
+                  pass
 gk = getcode(tokenma)
