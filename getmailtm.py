@@ -1,6 +1,6 @@
 import string
 import time
-
+import requests
 def reg_mail():
         letters = string.ascii_lowercase
         address = ''.join(random.choice(letters) for i in range(7)) + str(random.randint(12321, 982736)) + '@bugfoo.com'
